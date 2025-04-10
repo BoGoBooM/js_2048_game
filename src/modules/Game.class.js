@@ -277,5 +277,3 @@ export default class Game {
     return row1.every((val, index) => val === row2[index]);
   }
 }
-
-module.exports = Game;
